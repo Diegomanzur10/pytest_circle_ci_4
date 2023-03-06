@@ -1,4 +1,4 @@
-from code.main import suma, resta, multiplication, division
+from code.main import suma, resta, multiplication, division, modulo
 import pytest
 
 
@@ -32,3 +32,6 @@ def test_suma(a, b, c):
 def test_division():
     assert division(3, 0) == 1
 
+
+def test_modulo():
+    assert modulo(3, 1) == 0

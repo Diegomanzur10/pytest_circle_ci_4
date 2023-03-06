@@ -11,3 +11,6 @@ def multiplication(a: float, b:float) -> float:
 
 def division(a: float, b:float) -> float:
     return a / b
+
+def modulo(a: float, b:float) -> float:
+    return a % b
