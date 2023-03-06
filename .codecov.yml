@@ -1,6 +1,7 @@
 profiling:
-  - critical_file_paths:
+  - critical_files_paths:
     - code/main.py
+
 comment:
   layout: "reach, diff, flags, files"
   behavior: default
