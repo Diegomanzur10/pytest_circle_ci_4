@@ -14,4 +14,5 @@ jobs:
 
 workflows:
   just_build:
-    - build
+    jobs:
+      - build
