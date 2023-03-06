@@ -1,5 +1,8 @@
 version: 2.1
 
+orb:
+  - codecov/codecov@3
+
 jobs:
   build:
     working_directory: ~/circleci-python
