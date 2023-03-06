@@ -35,3 +35,6 @@ def test_division():
 
 def test_modulo():
     assert modulo(3, 1) == 0
+
+def test_modulo2():
+    assert modulo(4, 1) == 0
