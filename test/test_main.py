@@ -36,7 +36,7 @@ def test_division2():
     assert division(3, 1) == 3
 
 def test_division3():
-    assert division(2, 1) == 2
+    assert division(2, 2) == 1
 
 
 def test_modulo():
