@@ -32,6 +32,9 @@ def test_suma(a, b, c):
 def test_division():
     assert division(3, 0) == 1
 
+def test_division2():
+    assert division(3, 1) == 3
+
 
 def test_modulo():
     assert modulo(3, 1) == 0
